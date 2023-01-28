@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Getting the WWW files</title>
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="top_navbar">
+            <div class="logo">
+                <a href="#">Getting the WWW files</a>
+            </div>
+            <div class="top_menu">
+                <div class="home_link">
+                    <a href="index.html">
+                        <span class="icon">
+                            <i class="fas fa-home" aria-hidden="true"></i>
+                        </span>
+                        <span>Home</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="main_body">
+            <div class="sidebar_menu">
+                <div class="inner_sidebar_menu">
+                    <ul>
+                        <li>
+                            <a href="#" target="_blank" class="active">
+                                <span class="list"> install Viola   </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">
+                                <span class="list">Tim BL </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="list">copyright </span>
+                            </a>
+                        </li>
+                       
+                    </ul>
+                    
+                </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="item_wrap">
+                    <div class="item">
+                        <h2>Getting the WWW files</h2><br>
+                        Read this if you have not yet got the WWW files you need, and you cannot NFS mount a directory on which they reside.
+                        The source and binary of WWW project files are currently available (see <a href="#">copyright </a> ) by anonymous FTP from node info.cern.ch. This node is currently 128.141.201.74 but THIS MAY CHANGE. The files are compressed tape archive files (.tar.Z). To get a file using anonymous FTP, use user name "anonymous", and your email address as a password:-
+
+			            > ftp info.cern.ch
+			            Enter user name: anonymous
+			            Password: me@myhost.edu
+			            ftp> cd /pub/www/src
+			            ftp> binary
+			            ftp> get WWWLineMode_vvv.tar.Z
+			            ftp> quit
+			            >
+
+                       The file name will depend on the product you want. Here vvv is the version number of the software.
+                       Once you have the compressed tar file, you must uncompress it and unwrap it.
+
+			           uncompress WWWLineMode_vvv.tar.Z
+
+                      This will make a rather larger file with the name without the ".Z". To unwrap it,
+			          tar xvf WWWLineMode_vvv.tar
+
+                      Now you should <a href="#">install the line mode browser </a> , <a href="#">install the server</a> , <a href="#">install Viola </a> , etc.
+                      <a href="#">Tim BL</a>
+                    </div>
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
